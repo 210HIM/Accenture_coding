@@ -1,0 +1,6 @@
+Write a function to check if the given two strings are anagrams or not. Return ‘Yes’ if they are anagrams, otherwise, return ‘No’.
+Example
+Input 1: build
+Input 2: dubli
+Output:
+Yes
