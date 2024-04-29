@@ -57,3 +57,25 @@ def check_eqval(s1,s2):
 str_1 = input()
 str_2 = input()
 print(check_eqval(str_1,str_2))
+
+
+
+
+
+
+
+N = int(input())
+num = int(input())
+rem = 0 
+ans = ''
+while num != 0:
+    rem = num % N
+    if rem >= 9:
+        ans += chr(55+rem)
+    else:
+        ans += str(rem)
+    num = num // N
+    
+print(ans[::-1])
+
+
