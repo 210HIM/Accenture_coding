@@ -22,6 +22,23 @@ print(result)
 
 
 
+def Productsmallpair(arr,smm):
+    if len(arr) < 2:
+        return -1
+    else:
+        arr.sort()
+        i = 1
+        while i < len(arr):
+            if (arr[i-1] + arr[i]) < smm:
+                return (arr[i-1] * arr[i])
+            i += 1
+                
+smm = int(input())
+num = list(map(int,input().split()))
+
+result = Productsmallpair(num, smm)
+print(result)
+
 
 
 
