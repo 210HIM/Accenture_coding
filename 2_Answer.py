@@ -19,3 +19,24 @@ if len(num) > 3:
 else:
     print('0')
 print(result)
+
+
+
+
+
+
+
+def check_eqval(s1,s2):
+    s1 = s1.upper()
+    s2 = s2.upper()
+    for i in s1:
+        if i in s2:
+            return 'Yes'
+        else:
+            return 'No'
+
+
+#input()
+str_1 = input()
+str_2 = input()
+print(check_eqval(str_1,str_2))
